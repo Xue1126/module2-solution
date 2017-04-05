@@ -1,0 +1,76 @@
+/********** desktop **********/
+@media (min-width: 992px) {
+    .col-lg-3 {  width: 25%;     }
+    .col-lg-4 {  width: 30%;  }
+}
+
+/********** Tablet **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6  {  width: 40%;  }
+    .col-md-12 {  width: 100%; }
+}
+
+/********** Mobil **********/
+@media (max-width: 767px) {
+    .col-sm-12 {  width: 100%;  }
+}
+
+
+/*********** body***********/
+body {
+    font-family: "PT Sans", sans-serif;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+.menu {
+    width: 100%;
+}
+
+.card {
+    /*width: 30%;*/
+    height: 180px;
+    background-color: lightgrey;
+    color:black;
+    display: inline-block;
+    border: 2px black solid;
+    margin: 5px;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+#chicken {
+    background-color: pink;
+    float: right;
+    padding: 2px;
+    border-bottom: 2px black solid;
+    border-left: 2px black solid;
+    margin-bottom: 5px;
+}
+
+#beef {
+    background-color: red;
+    display:block;
+    float: right;
+    padding: 2px;
+    border-bottom: 2px black solid;
+    border-left: 2px black solid;
+    margin-bottom: 5px;
+}
+
+#sushi {
+    background-color: red;
+    display:block;
+    float: right;
+    padding: 2px;
+    border-bottom: 2px black solid;
+    border-left: 2px black solid;
+    margin-bottom: 5px;
+}
+
+.text {
+
+}
